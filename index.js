@@ -246,7 +246,7 @@ client.on('interactionCreate', async (interaction) => {
       .setDescription(açıklama)
       .setColor('Red')
       .setTimestamp()
-      .setFooter({ text: `${üye.user.username}`, iconURL: üye.displayAvatarURL() })
+      .setFooter({ text: `${üye.user.id}`, iconURL: üye.displayAvatarURL() })
 
     mzrdb.delete(`mzrkayıtGöndermiş.${guild.id}.${id}`);
     await interaction.update({ embeds: [mzrEmbed], components: [mzrButton] });
