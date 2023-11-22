@@ -26,6 +26,9 @@ Kayıtsız olarak verilecek rolü ayarlarsınız.
 ⚙ **/ayarla log-kayıt**
 Başvuru kayıt log kanalını ayarlarsınız.
 
+⚙ **/ayarla yetkili**
+Kayıt yapabilecek başvuru yetkilisini ayarlarsınız.
+
 ⚙ **/ayarlar**
 Kayıt ayarlarını görüntülersiniz.
 
