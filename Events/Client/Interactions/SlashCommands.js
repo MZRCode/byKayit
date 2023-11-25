@@ -26,7 +26,7 @@ module.exports = {
                 console.error("SubComamnd dosyasını bulamadım!");
                 return interaction.reply({ content: "Bu komut artık kullanılmıyor!", ephemeral: true });
             }
-            subCommandFile.execute(interaction, client);
-        } else command.execute(interaction, client);
+            subCommandFile.execute();
+        } else command.execute();
     }
 }
