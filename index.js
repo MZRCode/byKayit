@@ -34,9 +34,6 @@ client.commands = new Collection();
 client.subCommands = new Collection();
 client.events = new Collection();
 
-const { loadEvents } = require('./Handlers/eventHandler');
-loadEvents(client);
-
 const kayıtModal = new ModalBuilder()
   .setCustomId('mzrkayıtform')
   .setTitle('Aşağıdaki Formu Doldurunuz')
